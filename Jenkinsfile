@@ -3,22 +3,22 @@ pipeline {
      stages{
       stage('Build'){
        steps {
-         echo "Hello World"
+         echo "Build step"
        }
     }
     stage('Test'){
        steps {
-         echo "Hello World"
+         echo "Test step"
        }
     }
     stage('Deploy'){
        steps {
-         echo "Hello World"
+         echo "Deploy step"
        }
     }
     stage('Docker'){
        steps {
-         echo "Hello World"
+         echo "Docker step"
        }
     }
     
